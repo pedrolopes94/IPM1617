@@ -31,7 +31,7 @@
     <![endif]-->
   </head>
 
-  <body>
+  <body background="images/Background-Image_blur.jpg" style="background-repeat: no-repeat; background-attachment: fixed; background-size: cover">
     <nav class="navbar navbar-fixed-top navbar-inverse">
       <div class="container">
         <div class="navbar-header">
@@ -54,6 +54,7 @@
       </div><!-- /.container -->
     </nav><!-- /.navbar -->
 
+  
     <div class="container">
 
       <div class="row row-offcanvas row-offcanvas-right">
@@ -62,18 +63,15 @@
           <p class="pull-right visible-xs">
             <button type="button" class="btn btn-primary btn-xs" data-toggle="offcanvas">Toggle nav</button>
           </p>
-          <div class="jumbotron" style="background-color:#fff799">
-            <a href="project.html">
+          <a href="project.html">
               <img onmouseover="imgShadow(this)" onmouseout="imgNoShadow(this)"  src="images/IPM-Logo_no_bg.png" alt="Logo"/>
             </a>
-            </br></br>
-            <p align="justify">This is a project for a Human–Computer Interaction course in FCT NOVA.</p>
-            </br></br>
-            <p align="justify">Our goal is to develop a camping trip planner application which replaces the spreadsheet when it comes to dealing with camping planning.</p>
-            </br>
-            <p align="justify">Although there are many apps for planning trips, we could only find one specific app for planning camping activities and in turn,
+          <div class="jumbotron" style="background-color:#068845"><!--style="background-color:#fff799"-->
+            
+            <p align="justify" style="color:#ffffff">This is a project for a Human–Computer Interaction course in FCT NOVA.</p>
+            <p align="justify" style="color:#ffffff">Our goal is to develop a camping trip planner application which replaces the spreadsheet when it comes to dealing with camping planning.</p>
+            <p align="justify" style="color:#ffffff">Although there are many apps for planning trips, we could only find one specific app for planning camping activities and in turn,
                it hasn't the best visual presentation.</p>
-            </br>
           </div>
         </div><!--/.col-xs-12.col-sm-9-->
         
@@ -92,7 +90,7 @@
       <hr>
 
       <footer>
-        <p>&copy; 2016 António Caeiro nº42486, Francisco Magalhães nº42745, Pedro Lopes nº42487</p>
+        <p style="color:#ffffff">&copy; 2016 António Caeiro nº42486, Francisco Magalhães nº42745, Pedro Lopes nº42487</p>
       </footer>
 
     </div><!--/.container-->
@@ -109,7 +107,7 @@
     <script src="template/offcanvas.js"></script>
     <script>
       function imgShadow(x) {
-          x.style.boxShadow = "2px 2px 2px 2px black";
+          x.style.boxShadow = "1px 1px 2px 2px black";
       }
       function imgNoShadow(x) {
           x.style.boxShadow = "";
